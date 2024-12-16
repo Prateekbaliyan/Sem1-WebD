@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <!-- <span class="navbar-logo"><img src="" alt=""></span> -->
+            <!-- <span class="navbar-name">Tutoroot</span> -->
+            <img src="images/logo.png" alt="" height="50px">
+           
+            
+            
+        </div>
+        <div class="navbar-center">
+            <ul class="navbar-menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about us.html">About</a></li>
+              
+                <li class="html">
+                    <a href="#" class="html-link">
+                        Courses
+                        <i class="fa-solid 
+                                  fa-chevron-down html-chevron">
+                          </i>
+                    </a>
+                    <ul class="html-sub-menu">
+                        <li><a href="class 11.html">11TH</a></li>
+                        <li><a href="class 12.html">12TH</a></li>
+                        <li><a href="jee.html">JEE</a></li>
+                        <li><a href="neet.html">NEET</a></li>
+                    </ul>
+                </li>
+                <li><a href="contactpage.html"> Contact </a></li>
+              
+            </ul>
+        </div>
+        <a class="navbar-right">
+            <a href="loginpage.html"> <Login class="btn login-btn">Login</button></a>
+            <a href="signuppage.html"><button class="btn signup-btn">Sign Up</button></a>
+        </div>
+    </nav>
+</header>
+<body>
+
+    <div class="signup-container">
+        <div class="signup-box">
+            <h2 style="text-align: center;">Sign Up</h2>
+            <form action="#" method="post">
+                <div class="input-group">
+                    <input type="text" id="fullname" name="fullname" required>
+                    <label for="fullname">Full Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email Address</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" name="password" required>
+                    <label for="password">Password</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="confirmpassword" name="confirmpassword" required>
+                    <label for="confirmpassword">Confirm Password</label>
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

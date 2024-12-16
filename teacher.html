@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Ratings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container1 {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .teacher1 {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .teacher:last-child {
+            border-bottom: none;
+        }
+        .photo {
+            flex: 0 0 80px;
+            height: 80px;
+            margin-right: 20px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .details {
+            flex: 1;
+        }
+        .details h3 {
+            margin: 0 0 5px;
+            font-size: 18px;
+        }
+        .details p {
+            margin: 5px 0;
+            color: #555;
+        }
+        .rating {
+            display: flex;
+            gap: 3px;
+        }
+        .star {
+            color: gold;
+            font-size: 18px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <span class="navbar-logo"><img src="" alt=""></span>
+                <!-- <span class="navbar-name">Tutoroot</span> -->
+                <img src="images/logo.png" alt="" height="50px">
+               
+                
+                
+            </div>
+            <div class="navbar-center">
+                <ul class="navbar-menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about us.html">About</a></li>
+                  
+                    <li class="html">
+                        <a href="#" class="html-link">
+                            Courses
+                            <i class="fa-solid 
+                                      fa-chevron-down html-chevron">
+                              </i>
+                        </a>
+                        <ul class="html-sub-menu">
+                            <li><a href="/online tutoring 1/online tutoring 1/class 11.html">11TH</a></li>
+                            <li><a href="/online tutoring 1/online tutoring 1/class 12.html">12TH</a></li>
+                            <li><a href="/online tutoring 1/online tutoring 1/jee.html">JEE</a></li>
+                            <li><a href="/online tutoring 1/online tutoring 1/neet.html">NEET</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/online tutoring 1/online tutoring 1/contactpage.html"> Contact </a></li>
+                  
+                </ul>
+            </div>
+            <a class="navbar-right">
+                <a href="loginpage.html"> <Login class="btn login-btn">Login</button></a>
+                <a href="signuppage.html"><button class="btn signup-btn">Sign Up</button></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container1">
+        <h1> Some of the Most Experienced Teachers  </h1>
+        <div class="teacher1">
+            <div class="photo">
+                <img src="./images/teacher9.jpg" alt="Teacher 1">
+            </div>
+            <div class="details">
+                <h3>Archana Sahu</h3>
+                <p>Experience: 10 years</p>
+                <p>Description: A dedicated and passionate teacher specializing in Mathematics.</p>
+            </div>
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+            </div>
+        </div>
+
+       
+        <div class="teacher1">
+            <div class="photo">
+                <img src="./images/teacher7.jpg" alt="Teacher 2">
+            </div>
+            <div class="details">
+                <h3>Rekha Yadav</h3>
+                <p>Experience: 8 years</p>
+                <p>Description: An expert in English literature with a passion for storytelling.</p>
+            </div>
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+            </div>
+        </div>
+
+        <div class="teacher1">
+            <div class="photo">
+                <img src="./images/teacher8.jpg" alt="Teacher 3">
+            </div>
+            <div class="details">
+                <h3>Shivansh Tyagi</h3>
+                <p>Experience: 15 years</p>
+                <p>Description: A seasoned Physics teacher with a knack for making complex topics simple.</p>
+            </div>
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="star">&#9734;</span>
+            </div>
+        </div>
+
+        <div class="teacher1">
+            <div class="photo">
+                <img src="./images/teacher4.jpg" alt="Teacher 4">
+            </div>
+            <div class="details">
+                <h3>Aryan Rai</h3>
+                <p>Experience: 20 years</p>
+                <p>Description: A veteran Chemistry teacher who inspires students to love science.</p>
+            </div>
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+        </div>
+
+        <div class="teacher1">
+            <div class="photo">
+                <img src="./images/teacher7.jpg" alt="Teacher 5">
+            </div>
+            <div class="details">
+                <h3>Sakshi Rai</h3>
+                <p>Experience: 12 years</p>
+                <p>Description: A Computer Science teacher with extensive knowledge of programming.</p>
+            </div>
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+            </div>
+        </div>
+
+        <div class="teacher1">
+            <div class="photo">
+                <img src="./images/teacher3.jpg" alt="Teacher 6">
+            </div>
+            <div class="details">
+                <h3>Prateek Baliyaan</h3>
+                <p>Experience: 15 years</p>
+                <p>Description: An enthusiastic teacher focusing on Environmental Studies.</p>
+            </div>
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="star">&#9734;</span>
+            </div>
+        </div>
+
+       
+
+        <div class="teacher1">
+            <div class="photo">
+                <img src="./images/teacher6.jpg" alt="Teacher 8">
+            </div>
+            <div class="details">
+                <h3>Mayank Singh</h3>
+                <p>Experience: 7 years</p>
+                <p>Description: A passionate History teacher who brings the past to life.</p>
+            </div>
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="star">&#9734;</span>
+            </div>
+        </div>
+
+        <div class="teacher1">
+            <div class="photo">
+                <img src="./images/teacher5.jpg" alt="Teacher 9">
+            </div>
+            <div class="details">
+                <h3>Shreya Pratap</h3>
+                <p>Experience: 14 years</p>
+                <p>Description: An Economics teacher with a talent for simplifying concepts.</p>
+            </div>
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+            </div>
+        </div>
+
+     
+    </div>
+</body>
+</html>
+
